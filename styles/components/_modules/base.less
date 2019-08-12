@@ -1,0 +1,63 @@
+// ==================================================================================
+// Base
+// ==================================================================================
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
+  color: @black;
+  overflow-x: hidden;
+}
+
+p {
+
+}
+
+a {
+  -webkit-transition: all ease-in-out 0.3s;
+  -o-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  color: @white;
+
+  &:hover, &:focus {
+    text-decoration: none;
+    outline: none;
+  }
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+// tags
+
+h1, h2, h3, h4, h5, h6 {
+}
+
+img {
+  width: auto;
+  height: auto;
+}
+
+// List
+ul {
+  display: block;
+  padding: 0;
+  margin: 0;
+
+  li {
+    display: inline-block;
+
+    a {
+      display: block;
+    }
+  }
+}
+.p-0 {
+  padding:0;
+}
+
+@white:       #fff;
+@black:       #000;
+@maincolor:   #4169e1;
