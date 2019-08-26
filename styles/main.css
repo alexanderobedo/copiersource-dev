@@ -11262,6 +11262,9 @@ body {
   color: #000;
   overflow-x: hidden;
 }
+p {
+  font-family: 'MerriweatherRegular';
+}
 a {
   -webkit-transition: all ease-in-out 0.3s;
   -o-transition: all ease-in-out 0.3s;
@@ -11278,6 +11281,14 @@ a:focus {
 *:after {
   box-sizing: border-box;
 }
+h2 {
+  font-family: 'fira_sansbold';
+  font-size: 40px;
+}
+h3 {
+  font-family: 'MerriweatherBold';
+  font-size: 30px;
+}
 img {
   width: auto;
   height: auto;
@@ -11289,6 +11300,8 @@ ul {
 }
 ul li {
   display: inline-block;
+  font-size: 17px;
+  font-family: 'MerriweatherRegular';
 }
 ul li a {
   display: block;
@@ -11296,6 +11309,10 @@ ul li a {
 .p-0 {
   padding: 0;
 }
+.mb-40 {
+  margin-bottom: 40px;
+}
+/*color*/
 .transform-50 {
   position: absolute;
   top: 50%;
@@ -11370,6 +11387,47 @@ ul li a {
   border-radius: 0;
   box-shadow: none;
   padding: 27px 0 27px 20px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-menu {
+  padding: 30px 0px;
+}
+.main-menu .navbar-brand {
+  height: 100%;
+}
+.main-menu .navbar-brand img {
+  height: auto;
+  max-width: 350px;
+}
+.main-menu .navbar-nav {
+  padding: 15px 0px 15px;
+}
+.main-menu .navbar-nav a {
+  padding: 17px;
+  font-size: 18px;
+  font-family: 'fira_sansmedium';
+  color: #262626;
+  line-height: 3;
+}
+.section-copyright {
+  padding: 20px;
+}
+.section-footer {
+  color: #fff;
+}
+.section-footer h2 {
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.section-promo img {
+  max-width: 1090px;
+}
+.section-wrapper {
+  padding: 90px;
 }
 /**
  * Owl Carousel v2.3.4
