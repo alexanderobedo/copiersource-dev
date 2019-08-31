@@ -1,34 +1,36 @@
 <?php include("includes/header.php"); ?>
 
 
-<!-- <div class="section-banner">
-	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-	  <ol class="carousel-indicators">
-	    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-	    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-	    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-	  </ol>
-	  <div class="carousel-inner">
-	    <div class="carousel-item active">
-	      <img class="d-block w-100" src="imgs/banner-sample.jpg" alt="First slide">
-	    </div>
-	    <div class="carousel-item">
-	      <img class="d-block w-100" src="imgs/banner-sample.jpg" alt="Second slide">
-	    </div>
-	    <div class="carousel-item">
-	      <img class="d-block w-100" src="imgs/banner-sample.jpg" alt="Third slide">
-	    </div>
-	  </div>
-	  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-	    <span class="sr-only">Previous</span>
-	  </a>
-	  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-	    <span class="sr-only">Next</span>
-	  </a>
+<section class="slider">
+	<div class="banner-content">
+		<h2>Your Partner in Service and information solutions</h2>
+
+		<a href="" class="btn btn-main">View Products</a>
 	</div>
-</div> -->
+
+	<div class="flexslider">
+	  <ul class="slides">
+	    <li>
+	      <img src="images/banner-img.jpg" />
+	    </li>
+	    <li>
+	      <img src="images/banner-img.jpg" />
+	    </li>
+	    <li>
+	      <img src="images/banner-img.jpg" />
+	    </li>
+	    <li>
+	      <img src="images/banner-img.jpg" />
+	    </li>
+	  </ul>
+	</div>
+	<div class="custom-navigation">
+	  <a href="#" class="flex-prev">Prev</a>
+	  <div class="custom-controls-container"></div>
+	  <a href="#" class="flex-next">Next</a>
+	</div>
+</section>
+
 
 <div class="section-promo">
 	<div class="container">
@@ -36,8 +38,54 @@
 	</div>
 </div>
 
+<div class="featured-products">
+	<h2>our products</h2>
 
-
+	<!-- <div class="container">
+		<section class="slider">
+        <div class="flexslider carousel">
+          <ul class="slides">
+            <li>
+  	    	    <img src="images/s2110.png" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="images/s2110.png" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="images/s2110t.png" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="images/s2110.png" />
+  	    		</li>
+            <li>
+  	    	    <img src="images/s2110.png" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="images/s2110.png" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="images/s2110.png" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="images/s2110.png" />
+  	    		</li>
+            <li>
+  	    	    <img src="images/s2110.png" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="images/s2110.png" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="images/s2110.png" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="images/s2110.png" />
+  	    		</li>
+          </ul>
+        </div>
+      </section>
+	</div> -->
+</div>
 
 
 <?php include("includes/footer.php"); ?>

@@ -16,6 +16,21 @@
     <link href="styles/main.css" rel="stylesheet">
 </head>
 <body>
+	<div class="header-top">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="bg-gradient p-relative"></div>
+			</div>
+			<div class="col-md-4">
+				<div class="header-search">
+					<form>
+						<input type="text" placeholder="Search Product">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<div class="main-menu">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container">

@@ -12,6 +12,8 @@
 }
 
 .section-promo {
+	padding: 90px 0;
+	
 	img {
 		max-width: 1090px;
 	}
@@ -21,6 +23,45 @@
 	padding: 90px;
 }
 
+.slider {
+	position: relative;
+	height: 730px;
+	overflow: hidden;
+
+	.banner-content {
+		position: absolute;
+		top: 50%;
+		left: 30%;
+		transform: translate(-50%,-50%);
+		z-index: 1;
+    max-width: 480px;
+
+		h2 {
+			color: @white;
+			font-size: 45px;
+			line-height: 62px;
+			margin-bottom: 35px;
+		}
+	}
+
+	.custom-navigation {
+		position: absolute;
+    bottom: 60px;
+    width: 100%;
+
+    .flex-prev, .flex-next {
+    	display: none;
+    }
+
+		.flex-control-paging li a {
+			border: 1.5px solid @white;
+			background-color: transparent;
+		}
+		.flex-control-paging li a.flex-active {
+			background-color: @white;
+		}
+	}
+}
 
 
 

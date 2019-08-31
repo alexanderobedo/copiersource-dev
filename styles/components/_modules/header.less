@@ -1,3 +1,39 @@
+.header-top {
+	.bg-gradient {
+		height: 50px;
+		background: #00c6ff;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, #4169e1, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to right, #4169e1, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+		&:after {
+			position: absolute;
+			background-color: @white;
+			content: '';
+			width: 50px;
+			height: 50px;
+			-moz-transform: translate(-45px, 7px) skew(-34deg, 0deg);
+			-webkit-transform: translate(-45px, 7px) skew(-34deg, 0deg);
+			-o-transform: translate(-45px, 7px) skew(-34deg, 0deg);
+			-ms-transform: translate(-45px, 7px) skew(-34deg, 0deg);
+			transform: translate(-45px, 7px) skew(-34deg, 0deg);
+			right: -65px;
+			top: -7px;
+		}
+	}
+
+	.header-search {
+		margin-top: 12px;
+
+		input {
+			width: 279px;
+			height: 35px;
+			padding: 13px;
+    	font-size: 15px;
+		}
+	}
+}
+
 .main-menu {
 	padding: 30px 0px;
 
