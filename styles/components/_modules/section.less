@@ -7,7 +7,6 @@
 
 	h2 {
 		text-transform: uppercase;
-		margin-bottom: 40px;
 	}
 }
 
@@ -20,12 +19,12 @@
 }
 
 .section-wrapper {
-	padding: 90px;
+	padding: 50px;
 }
 
 .slider {
 	position: relative;
-	height: 730px;
+	height: 600px;
 	overflow: hidden;
 
 	.banner-content {
@@ -60,9 +59,58 @@
 		.flex-control-paging li a.flex-active {
 			background-color: @white;
 		}
+
+
 	}
 }
 
+.section-featured-products {
 
+	h2 {
+		text-align: center;
+		text-transform: uppercase;
+	}
+	
+	.featured-products-slider {
+
+		.product-holder {
+			padding: 0 50px;
+			text-align: center;
+
+			p{
+				width: 200px;
+				margin: 0 auto;
+			}
+
+				.img-holder {
+					max-width: 250px;
+					margin: 0 auto 20px;
+
+					img {
+						width: 100%;
+					}
+				}
+		}
+		.flex-control-nav {
+			bottom: 0;
+		}
+
+		.flex-viewport {
+			padding-bottom: 2em;
+		}
+	}
+}
+
+.section-about-us {
+	.img-holder {
+		overflow: hidden;
+		max-height: 420px;
+	}
+
+	.section-wrapper {
+		background-color: #f4f4f4;
+		min-height: 400px;
+	}
+}
 
 

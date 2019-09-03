@@ -2624,7 +2624,7 @@ output {
   padding-top: 7px;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #555555;
+  color: #3e3e3e;
 }
 .form-control {
   display: block;
@@ -2633,7 +2633,7 @@ output {
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #555555;
+  color: #3e3e3e;
   background-color: #fff;
   background-image: none;
   border: 1px solid #ccc;
@@ -3976,7 +3976,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   font-size: 14px;
   font-weight: normal;
   line-height: 1;
-  color: #555555;
+  color: #3e3e3e;
   text-align: center;
   background-color: #eeeeee;
   border: 1px solid #ccc;
@@ -4110,7 +4110,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: #555555;
+  color: #3e3e3e;
   background-color: #fff;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
@@ -11262,9 +11262,6 @@ body {
   color: #000;
   overflow-x: hidden;
 }
-p {
-  font-family: 'MerriweatherRegular';
-}
 a {
   -webkit-transition: all ease-in-out 0.3s;
   -o-transition: all ease-in-out 0.3s;
@@ -11283,11 +11280,21 @@ a:focus {
 }
 h2 {
   font-family: 'fira_sansbold';
-  font-size: 40px;
+  font-size: 30px;
+  margin-bottom: 30px;
 }
 h3 {
-  font-family: 'MerriweatherBold';
-  font-size: 30px;
+  font-family: 'MerriweatherRegular';
+  font-size: 25px;
+}
+h4 {
+  font-family: 'fira_sansbold';
+}
+p {
+  color: #3e3e3e;
+  font-size: 14px;
+  font-family: 'MerriweatherRegular';
+  line-height: 24px;
 }
 img {
   width: auto;
@@ -11300,7 +11307,7 @@ ul {
 }
 ul li {
   display: inline-block;
-  font-size: 17px;
+  font-size: 14px;
   font-family: 'MerriweatherRegular';
 }
 ul li a {
@@ -11313,6 +11320,7 @@ ul li a {
   margin-bottom: 40px;
 }
 /*color*/
+/*fonts*/
 .transform-50 {
   position: absolute;
   top: 50%;
@@ -11461,7 +11469,6 @@ ul li a {
 }
 .section-footer h2 {
   text-transform: uppercase;
-  margin-bottom: 40px;
 }
 .section-promo {
   padding: 90px 0;
@@ -11470,11 +11477,11 @@ ul li a {
   max-width: 1090px;
 }
 .section-wrapper {
-  padding: 90px;
+  padding: 50px;
 }
 .slider {
   position: relative;
-  height: 730px;
+  height: 600px;
   overflow: hidden;
 }
 .slider .banner-content {
@@ -11506,6 +11513,39 @@ ul li a {
 }
 .slider .custom-navigation .flex-control-paging li a.flex-active {
   background-color: #fff;
+}
+.section-featured-products h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.section-featured-products .featured-products-slider .product-holder {
+  padding: 0 50px;
+  text-align: center;
+}
+.section-featured-products .featured-products-slider .product-holder p {
+  width: 200px;
+  margin: 0 auto;
+}
+.section-featured-products .featured-products-slider .product-holder .img-holder {
+  max-width: 250px;
+  margin: 0 auto 20px;
+}
+.section-featured-products .featured-products-slider .product-holder .img-holder img {
+  width: 100%;
+}
+.section-featured-products .featured-products-slider .flex-control-nav {
+  bottom: 0;
+}
+.section-featured-products .featured-products-slider .flex-viewport {
+  padding-bottom: 2em;
+}
+.section-about-us .img-holder {
+  overflow: hidden;
+  max-height: 420px;
+}
+.section-about-us .section-wrapper {
+  background-color: #f4f4f4;
+  min-height: 400px;
 }
 /**
  * Owl Carousel v2.3.4

@@ -36,7 +36,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-5">
-						<a class="navbar-brand" href="#"><img src="imgs/logo.png"></a>
+						<a class="navbar-brand" href="#"><img src="images/logo.png"></a>
 					</div>
 					<div class="col-md-7">
 						<div class="collapse navbar-collapse" id="navbarNavAltMarkup">

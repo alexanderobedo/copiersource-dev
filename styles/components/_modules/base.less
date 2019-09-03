@@ -10,10 +10,6 @@ body {
   overflow-x: hidden;
 }
 
-p {
-  font-family: 'MerriweatherRegular';
-}
-
 a {
   -webkit-transition: all ease-in-out 0.3s;
   -o-transition: all ease-in-out 0.3s;
@@ -37,12 +33,24 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
   font-family: 'fira_sansbold';
-  font-size: 40px;
+  font-size: 30px;
+  margin-bottom: 30px;
 }
 
 h3 {
-  font-family: 'MerriweatherBold';
-  font-size: 30px;
+  font-family: @mbold;
+  font-size: 25px;
+}
+
+h4 {
+  font-family: @fbold;
+}
+
+p {
+  color: @gray;
+  font-size: 14px;
+  font-family: @mregular;
+  line-height: 24px;
 }
 
 img {
@@ -58,7 +66,7 @@ ul {
 
   li {
     display: inline-block;
-    font-size: 17px;
+    font-size: 14px;
     font-family: 'MerriweatherRegular';
 
     a {
@@ -76,6 +84,14 @@ ul {
 /*color*/
 @white:               #fff;
 @black:               #000;
+@gray:                #3e3e3e;
 @maincolor:           #4169e1;
 @t-black-1:           #262626;
+
+
+/*fonts*/
 @mbold:               'MerriweatherRegular';
+@mregular:            'MerriweatherRegular';
+
+@fbold:               'fira_sansbold';
+@fmedium:             'fira_sansmedium';

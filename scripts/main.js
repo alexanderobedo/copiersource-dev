@@ -9,12 +9,16 @@
     }
   });
 
-  // $('.flexslider').flexslider({
-  //   animation: "slide",
-  //   animationLoop: false,
-  //   itemWidth: 210,
-  //   itemMargin: 5
-  // });
+  $('.featured-products-slider').flexslider({
+    animation: "slide",
+    animationLoop: false,
+    itemWidth: 210,
+    itemMargin: 5,
+    minItems: 2,
+    maxItems: 3
+    //customDirectionNav: $(".custom-navigation a")
+  });
+
 
 })(window, document, jQuery);
 
