@@ -41,58 +41,64 @@
 <section class="section-wrapper section-featured-products">
   <div class="container">
     <h2>our products</h2>
+
+    <div class="featured-products-slider carousel">
+      <ul class="slides">
+        <li>
+          <div class="product-holder">
+            <div class="img-holder">
+              <img src="images/s2110.png" />
+            </div>
+            <h4>DocuCentre S2110</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="btn btn-main">Learn More</a>
+          </div>
+        </li>
+        <li>
+          <div class="product-holder">
+            <div class="img-holder">
+              <img src="images/s2110.png" />
+            </div>
+            <h4>DocuCentre S2110</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="btn btn-main">Learn More</a>
+          </div>
+        </li>
+        <li>
+          <div class="product-holder">
+            <div class="img-holder">
+              <img src="images/s2110.png" />
+            </div>
+            <h4>DocuCentre S2110</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="btn btn-main">Learn More</a>
+          </div>
+        </li>
+        <li>
+          <div class="product-holder">
+            <div class="img-holder">
+              <img src="images/s2110.png" />
+            </div>
+            <h4>DocuCentre S2110</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="btn btn-main">Learn More</a>
+          </div>
+        </li>
+        <li>
+          <div class="product-holder">
+            <div class="img-holder">
+              <img src="images/s2110.png" />
+            </div>
+            <h4>DocuCentre S2110</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="btn btn-main">Learn More</a>
+          </div>
+        </li>
+      </ul>
+    </div>
   </div>
 
-  <div class="featured-products-slider carousel">
-    <ul class="slides">
-      <li>
-        <div class="product-holder">
-          <div class="img-holder">
-            <img src="images/s2110.png" />
-          </div>
-          <h4>DocuCentre S2110</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <a href="#" class="btn-main">Learn More</a>
-        </div>
-      </li>
-      <li>
-        <div class="product-holder">
-          <div class="img-holder">
-            <img src="images/s2110.png" />
-          </div>
-          <h4>DocuCentre S2110</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-      </li>
-      <li>
-        <div class="product-holder">
-          <div class="img-holder">
-            <img src="images/s2110.png" />
-          </div>
-          <h4>DocuCentre S2110</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-      </li>
-      <li>
-        <div class="product-holder">
-          <div class="img-holder">
-            <img src="images/s2110.png" />
-          </div>
-          <h4>DocuCentre S2110</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-      </li>
-      <li>
-        <div class="product-holder">
-          <div class="img-holder">
-            <img src="images/s2110.png" />
-          </div>
-          <h4>DocuCentre S2110</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-      </li>
-    </ul>
-  </div>
+  
   <!-- <div class="custom-navigation">
     <a href="#" class="flex-prev">Prev</a>
     <div class="custom-controls-container"></div>
@@ -113,6 +119,8 @@
           <h2>About Us</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus nisl sed tortor auctor, sed ultrices sapien bibendum. Praesent velit libero, mattis sit amet felis id, malesuada elementum augue. Fusce nec vulputate elit. Praesent purus magna, placerat et imperdiet id, placerat eget arcu. Nullam posuere tempor leo nec accumsan.</p>
           <p>Nullam massa ante, congue ut finibus a, finibus nec purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent sed nisi a ligula tincidunt accumsan eget vel nulla. Aliquam mattis lacinia ornare. Curabitur a hendrerit felis. In hac habitasse platea dictumst.</p>
+
+          <a href="" class="btn btn-main">Learn More</a>
         </div>
       </div>
 

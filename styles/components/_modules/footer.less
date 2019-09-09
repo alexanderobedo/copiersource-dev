@@ -1,0 +1,123 @@
+.section-footer {
+	background-color: @maincolor;
+  padding: 70px 0 80px;
+  color:@white;
+
+	h2 {
+		font-size: 35px;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+	}
+
+	h3 {
+		font-family: @fbold;
+		font-size: 25px;
+		letter-spacing: 1px;
+	}
+
+	ul li, a {
+		font-size: 16px;
+	}
+
+	a {
+		&:hover {
+			color: #d12421;
+		}
+	}
+
+	.location {
+		ul {
+			li {
+				margin-bottom: 7px;
+				position: relative;
+				padding-left: 25px;
+
+				&:before {
+					position: absolute;
+					left: 0;
+					font-family: 'fontawesomewebfont';
+					font-size: 15px;
+					color: @white;
+				}
+
+				&:nth-child(1) {
+					&:before {
+						content: "\f041";
+					}
+				}
+
+				&:nth-child(2) {
+					&:before {
+						content: "\f095";
+					}
+				}
+
+				&:nth-child(3) {
+					&:before {
+						content: "\f1ac";
+					}
+				}
+
+				&:nth-child(4) {
+					&:before {
+						content: "\f0e0";
+					}
+				}
+
+				a {
+					display: inline-block;
+				}
+			}
+		}
+	}
+
+	ul {
+		margin-top: 25px;
+
+		li {
+			display: block;
+		}
+	}
+
+	.sitemap {
+		ul {
+			column-count: 2;
+			margin-top: 46px;
+
+			li {
+				a {
+					line-height: 39px;
+				}
+			}
+		}
+
+		.fa {
+			font-family: 'fontawesomewebfont';
+			font-size: 18px;
+			color: @white;
+			margin-top: 30px;
+		}
+	}
+}
+
+.section-copyright {
+	padding: 25px 0 9px;
+
+	p {
+		font-family: @fmedium;
+	}
+
+	.pull-left {
+		margin-right: 10px;
+	}
+
+	ul {
+		margin-top: -4px;
+
+		li {
+			&:last-child {
+				margin-left: 10px;
+			}
+		}
+	}
+}
