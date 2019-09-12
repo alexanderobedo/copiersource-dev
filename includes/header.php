@@ -36,17 +36,17 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-5">
-						<a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+						<a class="navbar-brand" href="/copiersource-dev"><img src="images/logo.png"></a>
 					</div>
 					<div class="col-md-7">
 						<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 					    <div class="navbar-nav">
-					      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-					      <a class="nav-item nav-link" href="#">About Us</a>
+					      <a class="nav-item nav-link active" href="/copiersource-dev">Home <span class="sr-only">(current)</span></a>
+					      <a class="nav-item nav-link" href="/copiersource-dev/about.php">About Us</a>
 					      <a class="nav-item nav-link" href="#">Services</a>
 					      <a class="nav-item nav-link" href="#">Products</a>
 					      <a class="nav-item nav-link" href="#">Events</a>
-					      <a class="nav-item nav-link" href="#">Contact Us</a>
+					      <a class="nav-item nav-link" href="/copiersource-dev/contactus.php">Contact Us</a>
 					    </div>
 					  </div>
 					</div>

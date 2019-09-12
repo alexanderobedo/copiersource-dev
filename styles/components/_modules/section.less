@@ -1,9 +1,12 @@
+.section-wrapper {
+	padding: 45px 0;
+}
+
 
 .section-promo {
-	padding: 90px 0;
-	
 	img {
 		max-width: 1090px;
+		width: 100%;
 	}
 }
 
@@ -111,11 +114,7 @@
 	background-color: #f4f4f4;
 	margin-top: 80px;
 
-	.img-holder {
-		overflow: hidden;
-	}
-
-	.section-wrapper {
+	.section-content {
     padding: 27px 0 0 50px;;
 
     p {
@@ -126,6 +125,12 @@
     	display: block;
     	margin-top: 30px;
     }
+	}
+}
+
+.section-about-us {
+	.bg-inline {
+		height: 510px;
 	}
 }
 
@@ -144,7 +149,7 @@
 	}
 }
 
-.about-full {
+.sub-banner {
 	.b-shadow {
 		padding: 45px;
 
@@ -155,5 +160,87 @@
 				width: 100%;
 			}
 		}
+	}
+
+	.sub-banner-img {
+		margin-bottom: 2em;
+	}
+
+	p {
+		text-align: center;
+		line-height: 35px;
+	}
+}
+
+.section-partnership {
+	.bg-inline {
+		height: 300px;
+	}
+
+	p {
+		line-height: 35px;
+	}
+}
+
+.section-vision-mission {
+	h3 {
+		text-transform: uppercase;
+		text-align: center;
+		color: @white;
+	}
+
+	p {
+		max-width: 500px;
+		text-align: center;
+		margin: auto;
+		color: @white;
+		line-height: 35px;
+	}
+
+	.vision {
+		padding: 5em;
+		background-color: @maincolor;
+	}
+	.mission {
+		padding: 5em;
+		background-color: @secondcolor;
+	}
+}
+
+.section-awards {
+	h3 {
+		text-align: center;
+	}
+}
+
+
+/* === Contact Us === */
+.section-locations {
+	background-color: #F2F2F2;
+
+	h3 {
+		color: #4169E1;
+		margin-bottom: 20px;
+	}
+
+	li {
+		display: block;
+	}
+
+	a {
+		color: @maincolor;
+		display: inline-block;
+
+		&hover {
+			color: @maincolor;
+		}
+	}
+
+	.location {
+		margin-bottom: 20px;
+	}
+
+	.bg-inline {
+		height: 500px;
 	}
 }

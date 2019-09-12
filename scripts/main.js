@@ -19,6 +19,14 @@
     //customDirectionNav: $(".custom-navigation a")
   });
 
+  $('.awards').flexslider({
+    animation: "slide",
+    itemWidth: 210,
+    itemMargin: 5,
+    mousewheel: true,
+    maxItems: 2
+  });
+
 
 })(window, document, jQuery);
 

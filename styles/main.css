@@ -11563,11 +11563,12 @@ ul li a {
 .section-copyright ul li:last-child {
   margin-left: 10px;
 }
-.section-promo {
-  padding: 90px 0;
+.section-wrapper {
+  padding: 45px 0;
 }
 .section-promo img {
   max-width: 1090px;
+  width: 100%;
 }
 .slider {
   position: relative;
@@ -11652,18 +11653,18 @@ ul li a {
   background-color: #f4f4f4;
   margin-top: 80px;
 }
-.section-about-us .img-holder {
-  overflow: hidden;
-}
-.section-about-us .section-wrapper {
+.section-about-us .section-content {
   padding: 27px 0 0 50px;
 }
-.section-about-us .section-wrapper p {
+.section-about-us .section-content p {
   max-width: 606px;
 }
-.section-about-us .section-wrapper .btn {
+.section-about-us .section-content .btn {
   display: block;
   margin-top: 30px;
+}
+.section-about-us .bg-inline {
+  height: 510px;
 }
 /* === About Page === */
 .subpage-banner {
@@ -11676,14 +11677,74 @@ ul li a {
   text-align: center;
   font-size: 30px;
 }
-.about-full .b-shadow {
+.sub-banner .b-shadow {
   padding: 45px;
 }
-.about-full .b-shadow .sub-banner-img {
+.sub-banner .b-shadow .sub-banner-img {
   height: 347px;
 }
-.about-full .b-shadow .sub-banner-img .bg-inline {
+.sub-banner .b-shadow .sub-banner-img .bg-inline {
   width: 100%;
+}
+.sub-banner .sub-banner-img {
+  margin-bottom: 2em;
+}
+.sub-banner p {
+  text-align: center;
+  line-height: 35px;
+}
+.section-partnership .bg-inline {
+  height: 300px;
+}
+.section-partnership p {
+  line-height: 35px;
+}
+.section-vision-mission h3 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+.section-vision-mission p {
+  max-width: 500px;
+  text-align: center;
+  margin: auto;
+  color: #fff;
+  line-height: 35px;
+}
+.section-vision-mission .vision {
+  padding: 5em;
+  background-color: #4169e1;
+}
+.section-vision-mission .mission {
+  padding: 5em;
+  background-color: #D12421;
+}
+.section-awards h3 {
+  text-align: center;
+}
+/* === Contact Us === */
+.section-locations {
+  background-color: #F2F2F2;
+}
+.section-locations h3 {
+  color: #4169E1;
+  margin-bottom: 20px;
+}
+.section-locations li {
+  display: block;
+}
+.section-locations a {
+  color: #4169e1;
+  display: inline-block;
+}
+.section-locations ahover {
+  color: #4169e1;
+}
+.section-locations .location {
+  margin-bottom: 20px;
+}
+.section-locations .bg-inline {
+  height: 500px;
 }
 /**
  * Owl Carousel v2.3.4

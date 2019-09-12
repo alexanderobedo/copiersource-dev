@@ -110,12 +110,15 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-6 p-0">
-        <div class="img-holder">
+        <div class="bg-inline" style="background-image: url(images/copier-store.jpg);"></div>
+
+
+        <!-- <div class="img-holder">
           <img src="images/copier-store.jpg">
-        </div>
+        </div> -->
       </div>
       <div class="col-md-6 p-0">
-        <div class="section-wrapper">
+        <div class="section-content">
           <h2>About Us</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus nisl sed tortor auctor, sed ultrices sapien bibendum. Praesent velit libero, mattis sit amet felis id, malesuada elementum augue. Fusce nec vulputate elit. Praesent purus magna, placerat et imperdiet id, placerat eget arcu. Nullam posuere tempor leo nec accumsan.</p>
           <p>Nullam massa ante, congue ut finibus a, finibus nec purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent sed nisi a ligula tincidunt accumsan eget vel nulla. Aliquam mattis lacinia ornare. Curabitur a hendrerit felis. In hac habitasse platea dictumst.</p>
@@ -123,7 +126,6 @@
           <a href="" class="btn btn-main">Learn More</a>
         </div>
       </div>
-
     </div>
   </div>
 </section>
