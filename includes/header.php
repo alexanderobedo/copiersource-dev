@@ -42,11 +42,11 @@
 						<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 					    <div class="navbar-nav">
 					      <a class="nav-item nav-link active" href="/copiersource-dev">Home <span class="sr-only">(current)</span></a>
-					      <a class="nav-item nav-link" href="/copiersource-dev/about.php">About Us</a>
+					      <a class="nav-item nav-link" href="/copiersource/about.php">About Us</a>
 					      <a class="nav-item nav-link" href="#">Services</a>
 					      <a class="nav-item nav-link" href="#">Products</a>
 					      <a class="nav-item nav-link" href="#">Events</a>
-					      <a class="nav-item nav-link" href="/copiersource-dev/contactus.php">Contact Us</a>
+					      <a class="nav-item nav-link" href="/copiersource/contactus.php">Contact Us</a>
 					    </div>
 					  </div>
 					</div>

@@ -6,23 +6,49 @@
 	</div>
 </div>
 
-<!-- <div class="section-wrapper sub-banner">
+<div class="contact-form">
 	<div class="container">
-		<div class="b-shadow">
-			<div class="sub-banner-img">
-				<div class="bg-inline" style="background-image: url(images/about-banner-img.jpg);"></div>
-			</div>
-			
-			<p><strong>COPIER SOURCE ENTERPRISES</strong> is a reputable company in distribution of office equipment products  and consumable coupled with excellent service in the Visayas Region. Started in 2011 with 2 employees, the company now has grown to twenty (20) highly trained full-time staff and adding. Currently, COPIER SOURCE ENTERPRISES, has branches in huge city of Cebu and Bohol. Some of its big accounts are Government Institutions, large business enterprise and more. More offices are on its way to major cities in the Visayas and Mindanao.</p>
+		<div class="form-holder b-shadow">
+			<form>
+				<div class="row">
+					<div class="form-group col-md-6 col-sm-6">
+	    				<input class="form-control" placeholder="First Name">
+	  				</div>
+
+	  				<div class="form-group col-md-6 col-sm-6">
+	    				<input class="form-control" placeholder="Last Name">
+	  				</div>
+				</div>
+
+  				<div class="form-group">
+    				<input class="form-control" type="email" placeholder="Email">
+  				</div>
+
+  				<div class="form-group">
+    				<input class="form-control" placeholder="Type of Query">
+  				</div>
+
+  				<div class="form-group">
+    				<input class="form-control" placeholder="Phone Number">
+  				</div>
+
+  				<div class="form-group">
+    				<textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+  				</div>
+  				
+  				<button type="submit" class="btn btn-main">Submit</button>
+			</form>
 		</div>
 	</div>
-</div> -->
+</div>
 
 <div class="section-locations">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-6 p-0">
-				<iframe src="https://www.google.com/maps/d/u/0/embed?mid=12K1rCrIGvJaZgMT-N9h5MuibvTzFgVMP" width="640" height="480"></iframe>
+				<div class="iframe-holder">
+					<iframe src="https://www.google.com/maps/d/u/0/embed?mid=12K1rCrIGvJaZgMT-N9h5MuibvTzFgVMP" width="640" height="480"></iframe>
+				</div>
 			</div>
 			<div class="col-md-6 p-0">
 				<div class="section-content">

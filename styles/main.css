@@ -11262,7 +11262,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'MerriweatherRegular';
-  font-size: 16px;
+  font-size: 17px;
   line-height: 29px;
   color: #000;
   overflow-x: hidden;
@@ -11677,8 +11677,12 @@ ul li a {
   text-align: center;
   font-size: 30px;
 }
+.sub-banner {
+  margin-top: -12em;
+}
 .sub-banner .b-shadow {
-  padding: 45px;
+  padding: 45px 45px 27px 45px;
+  background-color: #fff;
 }
 .sub-banner .b-shadow .sub-banner-img {
   height: 347px;
@@ -11694,53 +11698,111 @@ ul li a {
   line-height: 35px;
 }
 .section-partnership .bg-inline {
-  height: 300px;
+  height: 355px;
 }
 .section-partnership p {
   line-height: 35px;
+  margin-top: 28px;
+}
+.section-partnership p:first-child {
+  margin-top: 0;
 }
 .section-vision-mission h3 {
   text-transform: uppercase;
   text-align: center;
   color: #fff;
+  margin-bottom: 27px;
 }
 .section-vision-mission p {
-  max-width: 500px;
+  max-width: 580px;
   text-align: center;
   margin: auto;
   color: #fff;
   line-height: 35px;
 }
+.section-vision-mission .vision,
+.section-vision-mission .mission {
+  min-height: 380px;
+  padding: 5em 0;
+}
 .section-vision-mission .vision {
-  padding: 5em;
   background-color: #4169e1;
 }
 .section-vision-mission .mission {
-  padding: 5em;
   background-color: #D12421;
+}
+.section-awards {
+  padding: 35px 0 110px;
 }
 .section-awards h3 {
   text-align: center;
 }
+.section-awards .awards-list {
+  margin-top: 4em;
+}
+.section-awards .awards-list ul {
+  margin: 0 auto;
+  display: table;
+}
+.section-awards .awards-list ul li:fist-child {
+  margin-left: 0;
+}
+.section-awards .awards-list ul li:last-child {
+  margin-left: 140px;
+}
 /* === Contact Us === */
+.contact-form .form-holder {
+  background-color: #fff;
+  padding: 47px;
+  margin: -9em auto 0;
+  max-width: 970px;
+}
+.contact-form .form-holder form .form-group input,
+.contact-form .form-holder form .form-group textarea {
+  border-color: #CCCCCC;
+}
+.contact-form .form-holder form .btn {
+  color: #fff;
+  margin: 30px auto 0;
+  display: table;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'fira_sansbold';
+  -webkit-transition: all ease-in-out 0.3s;
+  -o-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
 .section-locations {
   background-color: #F2F2F2;
+  margin-top: 96px;
 }
-.section-locations h3 {
+.section-locations .iframe-holder {
+  height: 530px;
+}
+.section-locations .iframe-holder iframe {
+  width: 100%;
+  min-height: 100%;
+}
+.section-locations .section-content {
+  padding: 35px 60px 0;
+}
+.section-locations .section-content h3 {
   color: #4169E1;
   margin-bottom: 20px;
 }
-.section-locations li {
+.section-locations .section-content ul li {
   display: block;
+  font-size: 17px;
+  margin-top: 6px;
 }
-.section-locations a {
+.section-locations .section-content a {
   color: #4169e1;
   display: inline-block;
 }
-.section-locations ahover {
+.section-locations .section-content ahover {
   color: #4169e1;
 }
-.section-locations .location {
+.section-locations .section-content .location {
   margin-bottom: 20px;
 }
 .section-locations .bg-inline {

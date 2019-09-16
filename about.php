@@ -38,13 +38,13 @@
 		<div class="row">
 			<div class="col-md-6 p-0">
 				<div class="vision">
-					<h3>Vision</h3>
+					<h3>Mission</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vulputate, dui in fringilla posuere, sapien leo tempus leo, id posuere magna purus non quam. Nunc interdum quis justo eu venenatis.</p>
 				</div>
 			</div>
 			<div class="col-md-6 p-0">
 				<div class="mission">
-					<h3>Mission</h3>
+					<h3>Vision</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vulputate, dui in fringilla posuere, sapien leo tempus leo, id posuere magna purus non quam. Nunc interdum quis justo eu venenatis.</p>
 				</div>
 			</div>
@@ -52,11 +52,11 @@
 	</div>
 </div>
 
-<div class="section-wrapper section-awards">
+<div class="section-awards">
 	<div class="container">
 		<h3>- Awards -</h3>
-		<div class="awards" style="direction:rtl">
-		  <ul class="slides">
+		<div class="awards-list">
+		  <ul>
 		    <li>
 		      <img src="images/award.png" />
 		    </li>
