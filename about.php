@@ -66,7 +66,6 @@
 		    <!-- items mirrored twice, total of 12 -->
 		  </ul>
 		</div>
-
 	</div>
 </div>
 
