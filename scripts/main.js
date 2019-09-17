@@ -19,14 +19,23 @@
     //customDirectionNav: $(".custom-navigation a")
   });
 
-  $('.awards').flexslider({
+  $('.product-slider #carousel').flexslider({
     animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
     itemWidth: 210,
     itemMargin: 5,
-    mousewheel: true,
-    maxItems: 2
+    asNavFor: '.product-slider #slider'
   });
-
+ 
+  $('.product-slider #slider').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+    sync: ".product-slider #carousel"
+  });
 
 })(window, document, jQuery);
 
