@@ -1,6 +1,9 @@
 (function(window, document, $) {
    
-  $('.flexslider').flexslider({
+
+  // home banner slider
+
+  $('.home-banner .flexslider').flexslider({
     animation: "slide",
     controlsContainer: $(".custom-controls-container"),
     customDirectionNav: $(".custom-navigation a"),
@@ -9,6 +12,7 @@
     }
   });
 
+  // home featured products slider
   $('.featured-products-slider').flexslider({
     animation: "slide",
     animationLoop: false,
@@ -41,6 +45,41 @@
     $(this).children('.sub-ul').slideToggle(500);
     $(this).toggleClass('active');
      event.preventDefault();
+  });
+
+  $('ul.tabs li').click(function(){
+    var tab_id = $(this).attr('data-tab');
+
+    $('ul.tabs li').removeClass('current');
+    $('.tab-content').removeClass('current');
+
+    $(this).addClass('current');
+    $("#"+tab_id).addClass('current');
+  })
+
+
+  // single product slider
+  $('.section-product-details #carousel').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+    itemWidth: 20,
+    itemMargin: 12,
+    minItems: 2,
+    maxItems: 3,
+    asNavFor: '#slider'
+  });
+
+  $('.section-product-details #slider').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+    sync: "#carousel",
+    start: function(slider){
+      $('body').removeClass('loading');
+    }
   });
 
 

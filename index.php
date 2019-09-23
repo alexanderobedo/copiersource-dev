@@ -1,7 +1,7 @@
 <?php include("includes/header.php"); ?>
 
 
-<section class="slider">
+<section class="slider home-banner">
 	<div class="banner-content">
 		<h2>Your Partner in Service and Information Solutions</h2>
 
@@ -129,6 +129,8 @@
     </div>
   </div>
 </section>
+
+
 
 
 <?php include("includes/footer.php"); ?>

@@ -525,20 +525,138 @@
 }
 
 .section-product-details {
+	padding-bottom: 90px;
+
+	.slider {
+		height: auto;
+
+		.flexslider {
+			margin-bottom: 15px;
+
+			.slides {
+				li {
+					display: inline-block !important;
+				}
+			}
+		}
+
+		#carousel {
+			ul {
+				li {
+					border: 1px solid #CECECE;
+
+					img {
+						padding: 17px;
+					}
+				}
+				.flex-active-slide {
+					border-color: @maincolor;
+				}
+			}
+		}
+	}
 	.product-details {
+		padding-left: 60px;
+
 		h3 {
 			font-family: @fbold;
 			text-transform: uppercase;
 			color: @black;
+			font-size: 30px;
 		}
 
 		.prod-title {
 			hr {
 				border-top: 2px solid #707070;
-				
 			}
 		}
 		
+		.single-sub-cat {
+			h4 {
+				color: #707070;
+				font-family: @mregular;
+			}
+		}
 
+		.btn {
+			width: 243px;
+			height: 53px;
+			font-size: 16px;
+			line-height: 39px;
+		}
+
+		.prod-desc {
+			margin: 25px 0 35px;
+		}
+
+		.product-features {
+			margin-top: 35px;
+
+			.tabs{
+				margin: 0px;
+				padding: 0px;
+				list-style: none;
+				position: relative;
+
+				&:after {
+					position: absolute;
+					content: '';
+					background-color: #BEBEBE;
+					width: 100%;
+					height: 2px;
+					bottom: 0;
+					left: 0;
+					z-index: -1;
+				}
+
+				li{
+					display: inline-block;
+					padding: 10px 15px 10px 0;
+					cursor: pointer;
+					text-transform: uppercase;
+					letter-spacing: 1px;
+					font-size: 17px;
+					margin-left: 50px;
+					text-align: left;
+
+					&:first-child {
+						margin-left: 0;
+					}
+				}
+			}
+
+			.tabs li.current{
+				border-bottom: 2px solid @maincolor;
+				color: @maincolor;
+			}
+
+			.tab-content{
+				display: none;
+				padding: 30px 0 0 0;
+
+				ul {
+					li {
+						display: block;
+						font-size: 17px;
+						margin-top: 6px;
+						position: relative;
+						padding-left: 17px;
+
+						&:before {
+							position: absolute;
+					    content: "\f111";
+					    font-family: 'fontawesomewebfont';
+					    font-size: 8px;
+					    left: 0;
+					    top: 0;
+						}
+					}
+				}
+			}
+
+			.tab-content.current{
+				display: inherit;
+			}
+		}
 	}
 }
